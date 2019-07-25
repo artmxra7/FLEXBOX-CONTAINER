@@ -20,17 +20,20 @@ body{
 .box{
   /* float: left; */
   height: 100px;
-  min-width: 100px;
-  flex-grow: 1;
+  min-width: 360px;
+
  
 }
 .red{
   background-color: red;
-  
-}
-.yellow{
-  background-color: yellow;
+  flex-shrink: 1; 
 }
 .blue{
   background-color: blue;
+  flex-shrink: 2;
+}
+.yellow{
+  background-color: yellow;
+  flex-shrink: 3;
+  
 }

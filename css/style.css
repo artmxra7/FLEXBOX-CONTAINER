@@ -15,14 +15,18 @@ body{
 .flexbox-container{
   display: flex;
   background-color: white;
+ 
 }
 .box{
   /* float: left; */
   height: 100px;
   min-width: 100px;
+  flex-grow: 1;
+ 
 }
 .red{
   background-color: red;
+  
 }
 .yellow{
   background-color: yellow;
